@@ -1,0 +1,8 @@
+</div>
+</div>
+<!-- 底部js -->
+<% for (var chunk in htmlWebpackPlugin.options.bodys) { %>
+<script src="<%= htmlWebpackPlugin.files.chunks[htmlWebpackPlugin.options.bodys[chunk]].entry %>"></script>
+<% } %>
+</body>
+</html>

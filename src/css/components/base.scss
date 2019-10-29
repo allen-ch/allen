@@ -1,0 +1,62 @@
+@import "./variables.scss";
+
+html {
+    min-width: $main-width;
+}
+
+body {
+    margin: 0;
+    line-height: 1.2;
+    background-color: $body-bg;
+    font-family: arial, sans-serif;
+    font-size: $fsz-default;
+    color: $text-black;
+    -webkit-text-size-adjust: none;
+}
+
+* {
+    outline: 0;
+}
+
+form, input, button, textarea, p, blockquote, ul, ol, dl {
+    margin: 0;
+    padding: 0;
+}
+
+img, button {
+    border: 0;
+}
+
+img {
+    font-size: 0;
+    border-style: none;
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+i, em, address, cite {
+    font-style: normal;
+}
+
+a {
+    color: $link-blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
